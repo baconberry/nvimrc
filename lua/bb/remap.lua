@@ -9,3 +9,6 @@ vim.keymap.set("n", "Q", "<nop>");
 
 -- keep pasting without yanking the replaced text
 vim.keymap.set("n", "<leader>p", "\"_dP");
+
+vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
+vim.keymap.set("n", "<leader>Y", [["+Y]])
